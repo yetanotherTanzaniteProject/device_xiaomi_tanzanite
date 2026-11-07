@@ -338,6 +338,30 @@
   ],
   "Actions": [
     {
+      "PowerHint": "LAUNCH",
+      "Node": "MemFreq",
+      "Duration": 30000,
+      "Value": "9999999999"
+    },
+    {
+      "PowerHint": "LAUNCH",
+      "Node": "UclampTAMin",
+      "Duration": 30000,
+      "Value": "100"
+    },
+    {
+      "PowerHint": "INTERACTION",
+      "Node": "UclampTAMin",
+      "Duration": 120,
+      "Value": "100"
+    },
+    {
+      "PowerHint": "INTERACTION",
+      "Node": "MemFreq",
+      "Duration": 120,
+      "Value": "9999999999"
+    }
+    {
       "PowerHint": "INTERACTION",
       "Node": "CPULittleClusterMinFreq",
       "Duration": 1000,
