@@ -66,6 +66,3 @@ ro.iorapd.enable=false
 
 # async property set
 ro.property_service.async_persist_writes=true
-
-# Halcyon Soc Prop
-ro.halcyon.soc.marketname=MediaTek Helio G99 Ultra
