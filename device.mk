@@ -16,6 +16,9 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Allow userspace reboots
 $(call inherit-product, $(SRC_TARGET_DIR)/product/userspace_reboot.mk)
 
+# Keys
+$(call inherit-product-if-exists, vendor/private/keys/keys.mk)
+
 # Security patch level
 VENDOR_SECURITY_PATCH := 2026-02-01
 BOOT_SECURITY_PATCH := 2026-02-01
